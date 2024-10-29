@@ -1,0 +1,637 @@
+.data-labels-child {
+  align-self: stretch;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  display: none;
+  max-width: 100%;
+}
+.learn {
+  width: 91px;
+  color: var(--color-forestgreen);
+}
+.emulator,
+.learn,
+.timeline {
+  position: relative;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.emulator {
+  width: 73px;
+  color: var(--color-darkblue);
+  min-width: 73px;
+}
+.timeline {
+  width: 145px;
+  color: var(--color-red);
+}
+.nintendo-emulation-archive {
+  position: relative;
+  white-space: pre-wrap;
+  text-align: left;
+  display: none;
+}
+.frame-item {
+  height: 91.9px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  display: none;
+  max-width: 100%;
+}
+.nintendo-emulation-archive1 {
+  position: relative;
+  white-space: pre-wrap;
+  text-align: left;
+  z-index: 1;
+}
+.emulator1,
+.timeline1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 30px;
+  color: inherit;
+  z-index: 1;
+}
+.timeline1 {
+  width: 146px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.emulator1 {
+  align-self: stretch;
+  display: inline-block;
+  min-width: 74px;
+}
+.emulator-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 7px 0 0;
+  color: var(--color-darkblue);
+}
+.learn1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 30px;
+  color: var(--color-forestgreen);
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.timeline-parent {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-red);
+  font-family: var(--font-arcadeclassic);
+}
+.data-labels,
+.frame-wrapper,
+.learn-parent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-wrapper {
+  margin: 0;
+  width: 423px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.data-labels,
+.learn-parent {
+  background-color: var(--color-darkslategray);
+  flex-direction: row;
+}
+.learn-parent {
+  flex: 1;
+  justify-content: space-between;
+  padding: var(--padding-11xl) 67px 29.9px 68px;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.data-labels {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0.1px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gold);
+  font-family: var(--font-arcadeclassic);
+}
+.history-of-nintendo1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.history-of-nintendo-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 21px;
+  text-align: center;
+  font-size: 120px;
+}
+.early-video-games {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.early-video-games-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-inner {
+  height: 339.8px;
+  width: 710px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.arcade-games-magnavox {
+  width: 647px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-wrapper1,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  padding: 33.9px var(--padding-12xl) var(--padding-15xl);
+  min-height: 340px;
+}
+.frame-wrapper1 {
+  flex: 1;
+  flex-direction: column;
+  padding: 25.7px 0 0;
+  min-width: 461px;
+}
+.data-labels-item,
+.image-5 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.data-labels-item {
+  top: 1px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.image-5 {
+  top: 0;
+  z-index: 1;
+}
+.atari-2600-wood-4sw-set-1-icon {
+  position: absolute;
+  top: 19px;
+  left: 0;
+  width: 466px;
+  height: 286px;
+  object-fit: cover;
+  z-index: 2;
+}
+.data-labels1 {
+  height: 324px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  min-width: 466px;
+  max-width: 100%;
+}
+.frame-container,
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-div {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto-mono);
+}
+.frame-container {
+  flex-direction: column;
+  padding: 0 0 113.5px;
+  box-sizing: border-box;
+  gap: 6px;
+}
+.game-and-watch-ball-1-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.game-and-watch-ball-1-wrapper {
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.game-and-watch,
+.where-it-began {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.where-it-began {
+  margin: 0;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.game-and-watch {
+  flex: 1;
+  z-index: 1;
+}
+.rectangle-group {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  padding: 25.3px var(--padding-12xl) 25px;
+  box-sizing: border-box;
+  min-height: 340px;
+  flex-shrink: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto-mono);
+}
+.frame-parent1,
+.rectangle-group,
+.where-it-began-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.where-it-began-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 31.3px;
+  min-width: 461px;
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 85.9px;
+  box-sizing: border-box;
+  gap: 29px;
+}
+.nintendos-rise {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.nintendo-rise-header,
+.rectangle-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-container {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  flex-direction: row;
+  padding: 32px var(--padding-12xl);
+  box-sizing: border-box;
+  min-height: 340px;
+  flex-shrink: 0;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto-mono);
+}
+.nintendo-rise-header {
+  flex: 1;
+  flex-direction: column;
+  gap: 30.9px;
+  min-width: 461px;
+}
+.group-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-wrapper3,
+.nintendo-rise-header-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper3 {
+  height: 462px;
+  flex-direction: column;
+  padding: 18px 0 0;
+  box-sizing: border-box;
+}
+.nintendo-rise-header-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 19px;
+}
+.explore-the-timeline {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  text-decoration: underline;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+.explore-the-timeline-wrapper {
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 245px 0 246px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  color: var(--color-red);
+}
+.frame-parent2 {
+  flex: 1;
+  flex-direction: column;
+  gap: 42px;
+}
+.frame-group,
+.frame-parent2,
+.frame-wrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 9px 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.frame-group {
+  width: 1205px;
+  flex-direction: column;
+  gap: 125px;
+  text-align: left;
+  font-size: var(--font-size-47xl);
+  color: var(--color-gold);
+  font-family: var(--font-arcadeclassic);
+}
+.content,
+.history-of-nintendo {
+  display: flex;
+  box-sizing: border-box;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 29px;
+  max-width: 100%;
+}
+.history-of-nintendo {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 101px;
+  gap: 141px;
+  background-image: url(./public/history-of-nintendo@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .explore-the-timeline-wrapper {
+    padding-left: 123px;
+    padding-right: 122px;
+    box-sizing: border-box;
+  }
+  .frame-group {
+    gap: 62px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .nintendo-emulation-archive1 {
+    display: none;
+  }
+  .history-of-nintendo1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .early-video-games {
+    font-size: var(--font-size-34xl);
+    line-height: 34px;
+  }
+  .data-labels1 {
+    flex: 1;
+  }
+  .frame-div {
+    flex-wrap: wrap;
+  }
+  .game-and-watch-ball-1-icon {
+    align-self: stretch;
+    width: auto;
+  }
+  .game-and-watch-ball-1-wrapper {
+    flex: 1;
+  }
+  .where-it-began {
+    font-size: var(--font-size-34xl);
+    line-height: 34px;
+  }
+  .frame-parent1 {
+    flex-wrap: wrap;
+  }
+  .nintendos-rise {
+    font-size: var(--font-size-34xl);
+    line-height: 34px;
+  }
+  .group-icon {
+    align-self: stretch;
+    width: auto;
+  }
+  .frame-wrapper3 {
+    flex: 1;
+  }
+  .nintendo-rise-header-parent {
+    flex-wrap: wrap;
+  }
+  .explore-the-timeline {
+    font-size: var(--font-size-34xl);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .learn-parent {
+    padding-left: var(--padding-15xl);
+    padding-right: 33px;
+    box-sizing: border-box;
+  }
+  .data-labels1,
+  .frame-wrapper1 {
+    min-width: 100%;
+  }
+  .frame-container {
+    padding-bottom: 74px;
+    box-sizing: border-box;
+  }
+  .game-and-watch-ball-1-wrapper {
+    min-width: 100%;
+  }
+  .where-it-began-parent {
+    gap: var(--gap-base);
+    min-width: 100%;
+  }
+  .frame-parent1 {
+    padding-bottom: 56px;
+    box-sizing: border-box;
+  }
+  .nintendo-rise-header {
+    gap: 15px;
+    min-width: 100%;
+  }
+  .frame-wrapper3 {
+    min-width: 100%;
+  }
+  .explore-the-timeline-wrapper {
+    padding-left: var(--padding-42xl);
+    padding-right: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+  .frame-parent2 {
+    gap: 21px;
+  }
+  .frame-group {
+    gap: 31px;
+  }
+  .history-of-nintendo {
+    gap: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .timeline-parent {
+    display: none;
+  }
+  .frame-wrapper {
+    display: none;
+    width: 0;
+  }
+  .history-of-nintendo1 {
+    font-size: var(--font-size-11xl);
+    line-height: 32px;
+  }
+  .early-video-games {
+    font-size: var(--font-size-21xl);
+    line-height: 25px;
+  }
+  .arcade-games-magnavox {
+    font-size: var(--font-size-lgi);
+  }
+  .where-it-began {
+    font-size: var(--font-size-21xl);
+    line-height: 25px;
+  }
+  .game-and-watch {
+    font-size: var(--font-size-lgi);
+  }
+  .explore-the-timeline,
+  .nintendos-rise {
+    font-size: var(--font-size-21xl);
+    line-height: 25px;
+  }
+  .explore-the-timeline-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frame-group {
+    gap: var(--gap-base);
+  }
+  .history-of-nintendo {
+    gap: 35px;
+  }
+}

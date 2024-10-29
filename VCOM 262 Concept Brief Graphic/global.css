@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-arcadeclassic: ArcadeClassic;
+  --font-roboto-mono: "Roboto Mono";
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-47xl: 66px;
+  --font-size-34xl: 53px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-red: #fe0000;
+  --color-gainsboro: #e1e0e0;
+  --color-gold: #ffc000;
+  --color-white: #fff;
+  --color-darkslategray: #2f2d2e;
+  --color-forestgreen: #079430;
+  --color-darkblue: #021daa;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-11xl: 30px;
+  --padding-xl: 20px;
+  --padding-12xs: 1px;
+  --padding-42xl: 61px;
+  --padding-12xl: 31px;
+  --padding-15xl: 34px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-11xl: 30px;
+}
