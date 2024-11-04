@@ -65,6 +65,8 @@ body {
   --gap-60xl: 79px;
   --gap-54xl: 73px;
   --gap-105xl: 124px;
+  --gap-base: 16px;
+  --gap-xl: 20px;
 
   /* Paddings */
   --padding-11xl: 30px;
